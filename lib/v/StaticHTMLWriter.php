@@ -19,7 +19,7 @@ abstract class StaticHTMLWriter extends BaseLibClass{
     }
     
     /**
-     * Generates the static html necessary to write the header
+     * Generates the static HTML necessary to write the header
      * @param  array $head_params Optional associative array with any configuration parameters necessary to write the header
      * @return array A standard form response associative array $response = array('status' => {'warning'|'failure'|'success'}, 'message' => {message}, 'data'=> {data})
      */
@@ -40,7 +40,7 @@ abstract class StaticHTMLWriter extends BaseLibClass{
     }
 
     /**
-     * Generates the static html necessary to write the body
+     * Generates the static HTML necessary to write the body
      * @param  array $body_params Optional associative array with any configuration parameters necessary to write the body
      * @return array A standard form response associative array $response = array('status' => {'warning'|'failure'|'success'}, 'message' => {message}, 'data'=> {data})
      */
@@ -61,7 +61,7 @@ abstract class StaticHTMLWriter extends BaseLibClass{
     }
     
     /**
-     * Generates the static html necessary to write the footer
+     * Generates the static HTML necessary to write the footer
      * @param  array $foot_params Optional associative array with any configuration parameters necessary to write the footer
      * @return array A standard form response associative array $response = array('status' => {'warning'|'failure'|'success'}, 'message' => {message}, 'data'=> {data})
      */

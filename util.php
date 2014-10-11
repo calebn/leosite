@@ -2,7 +2,7 @@
 
 /**
 * Auto loader, will automatically auto load necessary classes, replaces _ with /
-* @param string $class The name of the file to autoload
+* @param string $class The name of the file to auto load
 *
 */
 function my_autoloader($class) {
